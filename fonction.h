@@ -8,22 +8,16 @@
 
 typedef struct {
 
-	SDL_Rect position;//yekhy madame moushe nest7ako l position mta3 l personne khw ?
+	SDL_Rect position;
 	SDL_Rect frame;
 	SDL_Surface *image;
-	//int curframe;
 	Text vie;
 	int direction; 
 	Text score; 
-        //int running;
-        //int previousmvt;
 	double acceleration;
 	double decelere;
 	double vitesse;
-	//double v_x;
-	//double v_grav ;
-	//double v_saut ;
-	//double v_y ;
+	
 	
 }Personne;
 
